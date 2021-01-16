@@ -9,7 +9,7 @@
 
 .content-container {
     display: block;
-    background-color: yellow;
+    background-color: rgb(101 255 252);
     padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -67,7 +67,7 @@
     flex-direction: column;
     display: none;
     border: none;
-    background-color: white;
+    background-color:#e10101;
     flex: 1 1;
     margin: 0 1rem 0 1rem;
     padding: 1rem;

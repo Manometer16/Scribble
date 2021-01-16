@@ -41,7 +41,7 @@ stops receiving traffic for a while.
 
 Simply create an account at https://id.heroku.com/login and then click this link:
 
-https://heroku.com/deploy?template=https://github.com/Manometer16/Scribble/tree/master
+https://heroku.com/deploy?template=https://github.com/Manometer16/Scribbleit/tree/main
 
 ## Building / Running
 

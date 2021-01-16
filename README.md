@@ -35,21 +35,21 @@ Feel free to play on this instance
 
 ### Hosting your own instance for free
 
-By using Heroku, you can deploy a temporary container that runs scribble.rs.
+By using Heroku, you can deploy a temporary container that runs scribbleIT.
 The container will not have any cost and automatically suspend as soon as it
 stops receiving traffic for a while.
 
 Simply create an account at https://id.heroku.com/login and then click this link:
 
-https://heroku.com/deploy?template=https://github.com/scribble-rs/scribble.rs/tree/master
+https://heroku.com/deploy?template=https://github.com/Manometer16/Scribble/tree/master
 
 ## Building / Running
 
 Run the following to build the application:
 
 ```shell
-git clone https://github.com/scribble-rs/scribble.rs.git
-cd scribble.rs
+git clone https://github.com/Manometer16/Scribble.git
+cd Scribble
 ```
 
 For -nix systems:
@@ -81,14 +81,14 @@ have go version `1.13` or higher.
 Alternatively there's a docker container:
 
 ```shell
-docker pull biosmarcel/scribble.rs
+docker pull biosmarcel/Scribble
 ```
 
 ### Changing default port
 
 The default port is `8080`. To override it, run:
 ```shell
-docker run -p <port-number>:<port-number> biosmarcel/scribble.rs --portHTTP=<port-number>
+docker run -p <port-number>:<port-number> biosmarcel/Scribble --portHTTP=<port-number>
 ```
 
 ## Discord

@@ -1,4 +1,4 @@
-<h1 align="center">Scribble.rs</h1>
+<h1 align="center">ScribbleIT</h1>
 
 <p align="center">
   <a href="https://github.com/scribble-rs/scribble.rs/actions">
@@ -18,7 +18,7 @@
   </a>
 </p>
 
-Scribble.rs is a clone of the web-based drawing game skribbl.io. My main
+ScribbleIT is a clone of the web-based drawing game skribbl.io. My main
 problems with skribbl.io were the ads and the fact that a disconnect would
 cause you to lose your points. On top of that, the automatic word choice was
 quite annoying and caused some frustration.

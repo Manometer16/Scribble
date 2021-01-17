@@ -161,16 +161,16 @@ func ssrEnterLobby(w http.ResponseWriter, r *http.Request) {
 
 	// TODO Improve this. Return metadata or so instead.
 	userAgent := strings.ToLower(r.UserAgent())
-	if !(strings.Contains(userAgent, "gecko") || strings.Contains(userAgent, "chrome") || strings.Contains(userAgent, "opera") || strings.Contains(userAgent, "safari")) {
+	if !(strings.Contains(userAgent, "gecko") || strings.Contains(userAgent, "chrome") || strings.Contains(userAgent, "opera") || strings.Contains(userAgent, "safari") || strings.Contains(userAgent, "iphone") || strings.Contains(userAgent, "android")) {
 		userFacingError(w, "Sorry, no robots allowed.")
 		return
 	}
 
 	//FIXME Temporary
-	if strings.Contains(userAgent, "iphone") || strings.Contains(userAgent, "android") {
-		userFacingError(w, "Sorry, mobile is currently not supported.")
-		return
-	}
+	//if strings.Contains(userAgent, "iphone") || strings.Contains(userAgent, "android") {
+	//	userFacingError(w, "Sorry, mobile is currently not supported.")
+	//	return
+	//}
 
 	player := getPlayer(lobby, r)
 

@@ -1,3 +1,4 @@
+@media (min-width: 650px){
 .center-container {
     display: flex;
     flex-direction: column;
@@ -166,4 +167,5 @@ tr:hover {
 
 tr[selected="true"] {
     background-color: #6464de;
+}
 }

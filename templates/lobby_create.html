@@ -11,11 +11,9 @@
 </head>
 
 <body>
-    <div class="content-wrapper">
+    <div class="container-fluid" style="max-width:1400px;padding: 0px 4px 0px 4px;">
     <noscript><span class="noscript">This website requires JavaScript to run properly.</span></noscript>
-
     <h1>ScribbleIT</h1>
-
     <div class="tab-header">
         <label for="create-lobby-tab-button">
             <input id="create-lobby-tab-button" class="custom-check-or-radio tab-button"
@@ -43,7 +41,7 @@
                         <br/>
                         Fix the input and try again.
                     </div>
-
+  
                 {{end}}
                 <form id="lobby-create" class="input-container" action="/ssrCreateLobby" method="POST">
                     <b>Lobby-Language</b>
@@ -133,7 +131,7 @@
 
     {{template "footer"}}
 </div>
-
+    </div>
 <script type="text/javascript">
     let lobbyTableLoaded = false;
     let lobbyTableBody = document.getElementById("lobby-table-body");
